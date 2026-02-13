@@ -1,49 +1,77 @@
-# 13/02/2026
-## 1º Post
+# 📅 13/02/2026  
 
-O texto começa perguntando o que é engenharia de software e qual a diferença para programação.
+## 📝 Atividade 1
 
-Programação = escrever código.
-Engenharia de software = pensar no código de forma mais organizada e responsável.
+### ❓ Tema
+Diferença entre **programação** e **engenharia de software**.
 
-Eles comparam com outras engenharias (civil, aeronáutica) que têm regras bem rígidas porque erros podem causar acidentes. No software nem sempre foi assim, mas hoje como tudo depende de sistema, precisa ter mais cuidado e método.
+### 📌 Conceitos
 
-Ideia principal: não é só fazer funcionar, é fazer funcionar bem e continuar funcionando.
+- **Programação** → escrever código.
+- **Engenharia de software** → pensar no código de forma organizada, estruturada e responsável.
 
----
+### 🔎 Comparação feita no texto
 
-## 2º Post
+O livro compara com outras engenharias (civil, aeronáutica), que seguem regras rígidas porque erros podem causar acidentes graves.
 
-Aqui eles falam que engenharia de software é “programação ao longo do tempo”.
+No software:
+- Nem sempre houve tanto rigor.
+- Hoje tudo depende de sistemas.
+- Por isso é necessário mais método e responsabilidade.
 
-Ou seja:
-Não é só criar o sistema.
-É manter, melhorar, adaptar e pensar no futuro.
+### ✅ Ideia principal
 
-O código muda, a empresa cresce, as pessoas mudam. Então precisa pensar em:
-
-* Tempo e mudança → o sistema vai evoluir
-* Escala → pode crescer muito
-* Trade-offs → toda decisão tem custo
-
-Resumo: engenharia de software é pensar no ciclo de vida todo, não só na entrega.
+> Não é só fazer funcionar.  
+> É fazer funcionar bem e continuar funcionando.
 
 ---
 
-## 3 exemplos de trade-offs
+## 📝 Atividade 2
 
-1. **Velocidade x Qualidade**
-   Se fizer rápido demais, pode sair com erro.
-   Se focar só em qualidade, pode atrasar.
+### 💡 Ideia central
 
-2. **Simples x Completo demais**
-   Algo simples resolve agora.
-   Algo muito completo pode ficar complexo sem necessidade.
+Engenharia de software = **“programação ao longo do tempo”**
 
-3. **Economizar tempo agora x Ter problema depois**
-   Não fazer testes economiza tempo.
-   Mas depois pode dar mais trabalho para corrigir.
+Não é só criar o sistema.  
+É também:
+
+- Manter  
+- Melhorar  
+- Adaptar  
+- Pensar no futuro  
+
+### 📌 Pontos importantes
+
+- **Tempo e mudança** → o sistema vai evoluir.
+- **Escala** → o sistema e a equipe podem crescer.
+- **Trade-offs** → toda decisão tem custo.
+
+### ✅ Resumo
+
+> Engenharia de software é pensar no ciclo de vida completo do sistema, não só na entrega inicial.
 
 ---
 
-Em geral, o texto mostra que desenvolver software é tomar decisões pensando no longo prazo.
+## 📝 Atividade 3 — Trade-offs
+
+### 1️⃣ Velocidade × Qualidade
+
+- Fazer rápido → mais chance de erro.
+- Focar só na qualidade → pode atrasar a entrega.
+
+### 2️⃣ Simples × Completo demais
+
+- Simples → resolve o problema atual.
+- Muito completo → pode gerar complexidade desnecessária.
+
+### 3️⃣ Economizar agora × Problema depois
+
+- Não fazer testes → economiza tempo no início.
+- Mas pode gerar mais trabalho no futuro.
+
+---
+
+## 📌 Conclusão Geral
+
+Desenvolver software não é só programar.  
+É tomar decisões pensando no longo prazo e nas consequências futuras.
