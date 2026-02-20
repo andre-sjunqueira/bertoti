@@ -1,77 +1,83 @@
-# 📅 13/02/2026  
+## 📝 Atividade 1 -  13/02/2026  
 
-## 📝 Atividade 1
+### ❓ Tema  
+Software é intangível.
 
-### ❓ Tema
-Diferença entre **programação** e **engenharia de software**.
+### 📌 Conceito  
 
-### 📌 Conceitos
+Software não é físico.  
+Não pode ser tocado como um produto material.
 
-- **Programação** → escrever código.
-- **Engenharia de software** → pensar no código de forma organizada, estruturada e responsável.
+Ele é composto por código, lógica e regras que executam instruções.
 
-### 🔎 Comparação feita no texto
+Por ser intangível:
+- É mais difícil medir esforço.
+- Mudanças são frequentes.
+- Exige organização e método.
 
-O livro compara com outras engenharias (civil, aeronáutica), que seguem regras rígidas porque erros podem causar acidentes graves.
+### ✅ Ideia principal  
 
-No software:
-- Nem sempre houve tanto rigor.
-- Hoje tudo depende de sistemas.
-- Por isso é necessário mais método e responsabilidade.
+> Software não é um objeto físico,  
+> é um conjunto de instruções que precisa ser bem estruturado.
 
-### ✅ Ideia principal
+## 📝 Atividade 2  -  13/02/2026  
 
-> Não é só fazer funcionar.  
-> É fazer funcionar bem e continuar funcionando.
+### 💡 Ideia central  
 
----
+Engenharia de Software = **Programação + Tempo + Escala + Trade-offs**
 
-## 📝 Atividade 2
+Programar é fazer funcionar.  
+Engenharia de software é fazer funcionar **ao longo do tempo**.
 
-### 💡 Ideia central
+### 📌 Pontos importantes  
 
-Engenharia de software = **“programação ao longo do tempo”**
+- **Tempo** → o sistema precisa evoluir e ser mantido.  
+- **Escala** → precisa suportar crescimento de usuários e equipe.  
+- **Trade-offs** → toda decisão tem custo e consequência.
 
-Não é só criar o sistema.  
-É também:
+### ✅ Resumo  
 
-- Manter  
-- Melhorar  
-- Adaptar  
-- Pensar no futuro  
+> Não é só entregar o sistema.  
+> É garantir que ele continue funcionando no futuro.
 
-### 📌 Pontos importantes
+## 📝 Atividade 3 — 20/02/2026  
 
-- **Tempo e mudança** → o sistema vai evoluir.
-- **Escala** → o sistema e a equipe podem crescer.
-- **Trade-offs** → toda decisão tem custo.
+Requisitos não funcionais definem **como o sistema deve funcionar**.
 
-### ✅ Resumo
+### 1️⃣ Desempenho  
+Responder rapidamente, mesmo com muitos usuários.
 
-> Engenharia de software é pensar no ciclo de vida completo do sistema, não só na entrega inicial.
+### 2️⃣ Segurança  
+Proteger dados e acessos.
 
----
+### 3️⃣ Usabilidade  
+Ser fácil de usar e intuitivo.
 
-## 📝 Atividade 3 — Trade-offs
+### 4️⃣ Confiabilidade  
+Ter poucas falhas e alta disponibilidade.
 
-### 1️⃣ Velocidade × Qualidade
+### 5️⃣ Escalabilidade  
+Suportar crescimento sem perder qualidade.
 
-- Fazer rápido → mais chance de erro.
-- Focar só na qualidade → pode atrasar a entrega.
+### ✅ Resumo  
 
-### 2️⃣ Simples × Completo demais
+> Requisitos não funcionais definem a qualidade do sistema.
 
-- Simples → resolve o problema atual.
-- Muito completo → pode gerar complexidade desnecessária.
+## 📝 Atividade 4 - 20/02/2026  
 
-### 3️⃣ Economizar agora × Problema depois
+Trade-offs são escolhas onde melhorar um ponto pode prejudicar outro.
 
-- Não fazer testes → economiza tempo no início.
-- Mas pode gerar mais trabalho no futuro.
+### 1️⃣ Segurança × Desempenho  
+Mais proteção pode deixar o sistema mais lento.
 
----
+### 2️⃣ Escalabilidade × Custo  
+Preparar para muitos usuários aumenta o custo de infraestrutura.
 
-## 📌 Conclusão Geral
+### 3️⃣ Qualidade × Velocidade de entrega  
+Mais testes e organização aumentam a qualidade,  
+mas podem atrasar a entrega.
 
-Desenvolver software não é só programar.  
-É tomar decisões pensando no longo prazo e nas consequências futuras.
+### ✅ Conclusão Geral  
+
+Desenvolver software não é apenas programar.  
+É tomar decisões técnicas pensando no longo prazo.
