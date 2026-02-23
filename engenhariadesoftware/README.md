@@ -81,3 +81,28 @@ mas podem atrasar a entrega.
 
 Desenvolver software não é apenas programar.  
 É tomar decisões técnicas pensando no longo prazo.
+
+## 📝 Atividade 5 - 23/02/2026
+❓ Tema
+
+Teste completo de entradas e análise de erro lógico.
+
+💻 Código analisado
+int blec(int j){
+    j = j - 1;   // deveria ser j = j + 1
+    j = j / 30000;
+    return j;
+}
+
+Intervalo considerado:
+
+-32768 até +32767
+(total de 65536 valores possíveis)
+
+Ele só altera resultados nos pontos de transição da divisão inteira:
+
+29999 e 30000 (viram 0 em vez de 1)
+-30000 e -29999 (viram -1 em vez de 0)
+
+O erro é pequeno no valor,
+mas crítico no limite da regra lógica. provando que na e possivel testar tudo
