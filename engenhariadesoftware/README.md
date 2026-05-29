@@ -65,17 +65,47 @@ Suportar crescimento sem perder qualidade.
 
 ## 📝 Atividade 4 - 20/02/2026  
 
-Trade-offs são escolhas onde melhorar um ponto pode prejudicar outro.
 
-### 1️⃣ Segurança × Desempenho  
-Mais proteção pode deixar o sistema mais lento.
+Trade-offs são escolhas onde melhorar algo piora outro ponto.
 
-### 2️⃣ Escalabilidade × Custo  
-Preparar para muitos usuários aumenta o custo de infraestrutura.
+### 🔒 Segurança × Desempenho
+Mais segurança → sistema mais lento
 
-### 3️⃣ Qualidade × Velocidade de entrega  
-Mais testes e organização aumentam a qualidade,  
-mas podem atrasar a entrega.
+**Exemplos:**
+- Cloudflare: proteção contra ataques aumenta latência  
+- Google (2FA): login mais seguro, porém mais demorado  
+
+
+
+### 📈 Escalabilidade × Custo
+Mais capacidade → mais caro
+
+**Exemplos:**
+- Netflix: suporta milhões, mas com alto custo  
+- Startups: barato no início, mas pode cair ao crescer  
+
+
+
+### ⚡ Qualidade × Velocidade
+Mais qualidade → entrega mais lenta
+
+**Exemplos:**
+- Cyberpunk 2077: rápido, mas com bugs  
+- Apple: mais lento, porém mais polido  
+
+
+
+### 🧠 Resumo
+
+| Trade-off                | Ganho          | Perda          |
+|-------------------------|---------------|---------------|
+| Segurança × Desempenho  | Proteção      | Velocidade     |
+| Escalabilidade × Custo  | Crescimento   | Dinheiro       |
+| Qualidade × Velocidade  | Qualidade     | Tempo          |
+
+
+
+👉 Não existe solução perfeita, só decisões estratégicas.
 
 ### ✅ Conclusão Geral  
 
