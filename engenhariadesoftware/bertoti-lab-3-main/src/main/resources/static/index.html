@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lista de Filmes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.2.1/dist/axios.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <h1 class="title">Lista de Filmes</h1>
+            <button type="button"
+                    class="btn btn--primary"
+                    onclick="document.getElementById('id01').style.display='flex'">
+                Adicionar filme
+            </button>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="list-head">
+            <span class="list-head__label">Filmes</span>
+            <span class="list-head__count" id="movie-count">0</span>
+        </div>
+
+        <ul id="movie-list" class="movie-list"></ul>
+
+        <div id="empty-state" class="empty" hidden>
+            <p class="empty__title">Nenhum filme cadastrado.</p>
+            <p class="empty__hint">Use <strong>Adicionar filme</strong> para começar.</p>
+        </div>
+    </main>
+
+    <div id="id01" class="modal">
+        <div class="modal__card">
+            <button type="button"
+                    class="modal__close"
+                    aria-label="Fechar"
+                    onclick="document.getElementById('id01').style.display='none'">&times;</button>
+
+            <h2 class="modal__title">Novo filme</h2>
+
+            <div class="field">
+                <label for="inputID">ID</label>
+                <input type="text" id="inputID" class="input input--muted" disabled>
+                <span class="field__hint">Gerado automaticamente</span>
+            </div>
+
+            <div class="field">
+                <label for="nomeFilme">Nome</label>
+                <input type="text" id="nomeFilme" class="input" placeholder="Nome do filme" autocomplete="off">
+            </div>
+
+            <button id="submitBtn" type="button" class="btn btn--primary btn--block">Adicionar</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
